@@ -1,0 +1,230 @@
+@font-face
+{
+font-family: 'regular';
+src: url('/assets/weblysleekuisl.ttf');
+}
+
+@font-face
+{
+font-family: 'headerForm';
+src: url('/assets/space_age.ttf');
+}
+
+html { 
+	height: 100% 
+}
+
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	font-family: regular;
+	font-size:16px;
+	color:black;
+	/*background-color: #3B82B6;*/
+}
+
+h1{
+	font-family: regular, sans-serif;
+	font-size:40px;
+	text-shadow: 3px 3px 15px white;
+}
+	
+#map-canvas { 
+	height: 400px; 
+	width:700px;
+	border: 1px solid #ccc;
+}
+
+#wrapper{
+	margin:0 auto;
+	width: 930px;
+	background-color: white;
+	box-shadow:0px 0px 10px black;
+}
+
+#header{
+	height:200px;
+	padding:10px 0px 0px 0px;
+	background-image: url("/images/header.png");
+	background-repeat: no-repeat;
+}
+
+#header h1{
+	padding:30px 0px 30px 20px;
+	font-family: headerForm, sans-serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	z-index: 1000;
+	color:white;
+	background-color: rgba(0, 0, 0, .6);
+	width:650px;
+}
+
+.response{
+	color:white;
+	font-weight:bold;
+	padding:10px 0px 10px 5px;
+}
+
+#errorResponse{
+	border: 1px solid black;
+	background-color: #FF3300;
+	}
+
+#successfulResponse{
+	border: 1px solid #409640;
+	background-color: #4DDB4D;
+	}
+
+#mainContainer ul{
+	padding-left: 0;
+}
+
+#employeeSearch{
+	border:1px solid #ccc;
+	padding:8px 0px 5px 8px;
+	background-color: #D1F0FF;
+}
+
+#employeeSearch input{
+	width: 230px;
+}
+
+#employeeSearch input[type="submit"]{
+	width:90px;
+}
+
+#employeeSearch label{
+	font-weight: bold;
+}
+
+#employeeSearch #searchResultNo {
+	color: #3A9A3A;
+	font-weight: bold;
+	float:right;
+	margin-right: 20px;
+}
+
+
+
+#nav{
+	float:left;
+	width: 188px;
+	margin-left: 12px;
+}
+
+#nav ul{
+	padding-top: 70px;
+	list-style-type: none;
+	margin-top:35px;
+}
+
+#mainContainer ul{
+	list-style-type: none;	
+}
+
+#mainContainer ul li{
+	
+}
+
+
+
+#mainContainer ul li a{
+	text-decoration: none;
+	color:black;
+	display:block;
+	padding:10px 0px 10px 10px;
+	position: relative;
+}
+
+#btnVisible{
+	visibility: visible;
+	position:relative;
+	float: right;
+	bottom: 33px;
+	right: 5px;
+	
+}
+
+#nav ul li a{
+	margin-left: -40px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	display:block;
+	color:black;
+	text-decoration: none;
+	padding:10px 0px 10px 10px;
+}
+
+#nav ul li #nav-first-child{
+	border-top: 1px solid #ccc;
+}
+
+#mainContainer ul li:HOVER{
+	background-color: #3B82B6;
+	color:white;
+	cursor: pointer;
+}
+
+#nav ul li a:HOVER, #mainContainer a:HOVER{
+	background-color: #3B82B6;
+	color:white;
+}
+
+#mainContainer{
+	float:right;
+	width: 699px;
+	padding:0px 15px 5px 15px;
+	padding-bottom: 40px;
+	border-left:1px solid #ccc;
+	min-height: 350px;
+}
+
+.resultNumber{
+	float:right;
+	font-weight: bold;
+}
+
+#numericDetails{
+	width: 250px;
+}
+
+.reg input, textarea{
+	border: 1px solid #ccc;
+	width:300px;
+	
+}
+
+.reg input{
+	height: 25px;
+}
+
+.reg input:active{
+	border: 1px solid #3B82B6;
+}
+
+.reg input[name="jobdatedue"]{
+	margin-bottom: 20px;
+}
+
+.reg input[type="submit"]{
+	height:35px;
+	padding:5px 0px 0px 10px;
+}
+
+.reg input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #D1F0FF; 
+}
+
+#footer{
+	padding:30px 0px;
+	clear:both;	
+	background-color: #3B82B6;
+}
+
+#footer p{
+	text-align: center;
+	color:#fff;
+}
